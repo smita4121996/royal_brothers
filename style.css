@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=NTR&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #eee;
+  
+  font-family: "NTR", sans-serif;
+  font-weight: 400;
+  min-height: 100%;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+
+#topNav {
+  background-color: #fff;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 14px;
+  box-shadow: 1px 0px 4px 0px #ccc;
+  padding: 0 20px;
+}
+
+
+#navbar {
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
+  z-index: 90;
+  height: 50px;
+  overflow-y: hidden;
+  border-bottom: 0.0667rem solid #efefef;
+  background-color: #fff;
+  width: 100%;
+  padding: 0 20px;
+}
+#navbar article {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+#navbar article .logoBlock {
+  flex-basis: 17%;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+#navbar article .leftMenu {
+  flex-basis: 53%;
+}
+#navbar article .rightMenu {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.leftMenu nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rightMenu nav ul li a{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-container{
+display: flex;
+}
+
+.leftMenu nav ul li a {
+  padding: 8px 25px;
+  color: #303030;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.leftMenu nav ul li {
+  margin-right: 20px;
+}
+
+.logoBlock img {
+  width: 146px;
+  line-height: 70px;
+  display: block;
+}
+
+.logoBlock span:nth-child(1) i {
+  font-size: 20px;
+  line-height: 21px;
+  padding: 8px;
+}
+
+.leftMenu ul li a:hover {
+  background-color: #fed250;
+}
+
+#card {
+  display: none;
+  width: 200px;
+  height: 200px;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #111;
+  position: absolute;
+}
